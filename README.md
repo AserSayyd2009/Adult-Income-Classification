@@ -1,15 +1,25 @@
-# Adult Income Classification
+---
 
-A Machine Learning project that classifies whether an individual's income exceeds $50K/yr based on census data.
+### 2. Adult Income Classification (README.md)
 
-## Features
-- **Neural Networks**: Implementation of Multi-layer Perceptron (`MLPClassifier`).
-- **Standardization**: Scaling numerical features and one-hot encoding for categorical data.
-- **Evaluation**: Optimized performance through grid search cross-validation.
+```markdown
+# Adult Income Classification: Deep Learning Approach
 
-## Results
-The Multi-layer Perceptron model provides a reliable prediction for income levels based on demographic features.
+## 🚀 Project Overview
+This repository contains a comprehensive classification system designed to predict whether an individual's annual income exceeds $50,000 based on US Census data. The project explores the effectiveness of **Neural Networks** in capturing complex, non-linear relationships in demographic data.
 
-## Usage
-1. Install dependencies: `pip install -r requirements.txt`
-2. Run the `adultes.ipynb` notebook.
+## 🛠️ Technical Architecture
+- **Model Selection**: Multi-layer Perceptron (`MLPClassifier`) for high-dimensional classification.
+- **Advanced Preprocessing**:
+    - Handled high-cardinality categorical features (e.g., occupation, native country) using efficient encoding techniques.
+    - Numerical standardization for improved Neural Network convergence.
+- **Optimization Strategy**: Implemented cross-validation to tune the network architecture and learning rates.
+- **Model Persistence**: Integrated `joblib` serialization to save the trained model for future production inference.
+
+## 📊 Performance Summary
+The model successfully classifies income levels with a focus on maximizing the F1-score across both income classes, providing a reliable baseline for demographic analysis.
+
+## 💻 Installation & Usage
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/your-username/Adult-Income-Classification.git](https://github.com/your-username/Adult-Income-Classification.git)
