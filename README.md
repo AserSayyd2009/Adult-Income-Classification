@@ -17,4 +17,4 @@ The model successfully classifies income levels with a focus on maximizing the F
 ## 💻 Installation & Usage
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/Adult-Income-Classification.git](https://github.com/your-username/Adult-Income-Classification.git)
+   git clone [https://github.com/AserSayyd2009/Adult-Income-Classification.git](https://github.com/your-username/Adult-Income-Classification.git)
