@@ -1,8 +1,3 @@
----
-
-### 2. Adult Income Classification (README.md)
-
-```markdown
 # Adult Income Classification: Deep Learning Approach
 
 ## 🚀 Project Overview
